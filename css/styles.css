@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(250, 252, 252);
+    font-family: 'Montserrat', sans-serif;
+}
+.logo {
+    width :20%;
+}
+.center {
+    text-align: center;
+    margin: 10px 0;
+    font-weight : 600;
+}
+a {
+    color : #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color : #fff;
+    text-decoration: underline;
+    position: relative;
+    color: #fff;
+    display: block;
+    transition: all .5s ease-in-out;
+}
+h2{
+    font-weight: 600;
+}
+/* CSS FOR INDEX PAGE */
+nav {
+    background-color: #0E2244;
+    display : flex;
+    flex-direction: row;
+    align-items :center;
+    justify-content:space-between;
+    height : 60px;
+    padding : 0 10%;
+    margin-bottom: 70px;
+}
+
+nav div {
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space;
+    width : 30%;
+    color : white;
+    column-gap: 10px;;
+}
+
+
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    color : #fff;
+    margin : 20 0px;
+    padding : 0 10px;
+}
+
+
+/* CSS FOR HEADER */
+header {
+    display : flex;
+    flex-direction: column;
+    align-items :center;
+    justify-content:center;
+    height : 50px;
+    row-gap: 10px;
+    padding : 0 10%;
+    margin-bottom : 70px;
+}
+header p{
+    text-align: center;
+}
+
+header span {
+    display : block;
+    width : 150px;
+    padding : 5px;
+    background-color: #D52486;
+    border : 1px solid #D52486;
+    color : #fff;
+    border-radius: 7px;
+    text-align: center;
+}
+
+/* CSS FOR HERO */
+.hero {
+    background-color: #EDEEEF;
+    display : flex;
+    flex-direction: row;
+    align-items :center;
+    justify-content:center;
+    flex-shrink: 1;
+    padding : 5% 10%;
+}
+.image {
+    width : 50%;
+}
+
+.hero .heroText {
+    width : 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+
+.hero .heroText h2{
+    margin-bottom : 30px;
+}
+
+article {
+    display : flex;
+    flex-direction: column;
+    align-items :stretch;
+    justify-content :left;
+    row-gap: 15px;
+    padding : 0 10%;
+    margin : 30px;
+}
+
+
+.membre-itm {
+    display : flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin : 30px;
+}
+
+.membre-itm2 {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    padding : 0 10%;
+    margin : 30px;
+}
+
+.membre {
+    display : flex;
+    flex-direction: row;
+    align-items :center;
+    justify-content :space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    padding : 0 10%;
+    margin : 30px;
+}
+
+.membres {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-1 .duree{
+    font-size : 11px;
+}
+
+.title-1 .title-2{
+    font-weight: 600;
+}
+
+
+.rond {
+    width : 250px;
+    height: 250px;
+    background-color: #EDEEEF;
+    border-radius: 50%;
+}
+
+.carre {
+    width : 300px;
+    height: 300px;
+    background-color: #EDEEEF;
+    margin-bottom: 10px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.form-footer {
+    width : 50%;
+}
+
+.ctc-form {
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.form-dsg{
+    width : 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding : 0 10px;
+}
+/*
+.contact input, textarea {
+    background-color: #EDEEEF;
+}*/
+
+textarea {
+    padding: 10px;
+}
+
+.bg-rose{
+    background-color: #D52486;
+    border: #D52486;
+    color : #fff;
+
+}
+
+footer {
+    background-color: #0E2244;
+    color : #fff;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding : 0 10%;
+    height: 100px;
+}
+
+.contact p,h2 {
+    margin-bottom: 20px;
+}
+
