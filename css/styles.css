@@ -192,8 +192,13 @@ article {
     margin-bottom: 10px;
 }
 
-.active {
+nav a {
+    display: flex;
+}
+
+nav .active {
     font-weight: bold;
+    border-bottom:solid 2px #fff;
 }
 
 .form-footer {
