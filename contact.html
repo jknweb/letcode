@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://jknweb.github.io/letcode/css/styles.css">
+    <!--<link rel="stylesheet" href="/css/styles.css">-->
     <title>Contact</title>
     <meta property="description" content="Communauté des développeurs de la RDC et du monde">
     
@@ -34,24 +35,35 @@
             <h2>Nous Contacter</h2>
             <p>Remplir ce formulaire pour nous laisser un message</p>
             <form class="ctc-form">
-                <label>Nom</label>
-               <div class="txt"> <input type="text" name="votreNom" class="form-dsg"></div>
-               <label>Pays</label>
+                
                <div class="txt"> 
-                    <select class="form-dsg">
+                   <input type="text" class="input" name="votreNom" placeholder=" "/>
+                   <label class="placeholder">Votre Nom ici</label>
+                </div>
+
+               <div class="txt"> 
+                    <select class="input">
                         <option>RDCongo</option>
                         <option>Cameroun</option>
                         <option>Togo</option>
                         <option>Mali</option>
                      </select>
                 </div>
-               <label>Adresse mail</label>
-               <div class="txt"> <input type="mail" name="email" class="form-dsg"></div>
-               <label>Objectif</label>
-               <div class="txt"> <input type="text" name="objectif" class="form-dsg"></div>
-               <label>Votre message</label>
-               <div class="txt"> <textarea rows="20" cols="56" class=""></textarea></div>
-                <div class="txt"><button type="submit" name="inscription" class="form-dsg bg-rose" value="Envoyer votre message">Envoyez votre message</button></div>
+               
+                <div class="txt"> 
+                    <input type="mail" name="objectif" class="input" placeholder=" ">
+                    <label class="placeholder">Votre Adresse mail</label>
+                 </div>
+               <div class="txt"> 
+                   <input type="text" name="objectif" class="input" placeholder=" ">
+                   <label class="placeholder">Votre Objectif</label>
+                </div>
+               <div class="txt"> 
+                   <textarea rows="20" cols="56" class="input" placeholder=" "></textarea>
+                   <label class="placeholder">Votre Message</label>
+                </div>
+                <div class="txt">
+                    <button type="submit" name="inscription" class="form-dsg btn bg-rose" value="Envoyer votre message">Envoyez votre message</button></div>
             </form>
          </div>
 
@@ -69,8 +81,11 @@
         </div>
         <div class="contact form-footer">
            <form class="ctc-form">
-              <div class="txt"> <input type="mail" name="email" class="form-dsg"></div>
-               <div class="txt"><button type="submit" name="inscription" class="form-dsg bg-rose">S'inscrire</button></div>
+              <div class="txt"> 
+                  <input type="mail" name="email" class="input" placeholder=" ">
+                  <label class="placeholder">Incrivez-vous</label>
+                </div>
+               <div class="txt"><button type="submit" name="inscription" class="form-dsg btn bg-rose">S'inscrire</button></div>
            </form>
         </div>
     </div>
