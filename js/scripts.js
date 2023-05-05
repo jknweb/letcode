@@ -18,7 +18,7 @@ if (coursListeView) {
 
         for (const cour of courses){
             coursListeView.innerHTML += 
-            ` <div class="cours"><img src="https://jknweb.github.io/letcode/images/git.png"  aria-placeholder="">
+            ` <div class="cours"><img src="https://jknweb.github.io/letecode/images/git.png"  aria-placeholder="">
                 <div class="title-1">
                     <span class="title-2">${cour.titre}</span>
                     <span class="duree">${cour.description}</span>
